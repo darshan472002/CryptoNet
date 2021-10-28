@@ -47,13 +47,15 @@ nav ul li a{
   font-weight: 700;
   font-size: 17px;
   padding: 7px 13px;
-  border-radius: 3px;
+  border-radius: 8px;
   text-transform: uppercase;
   text-decoration: none;
 }
-a.active,a:hover{
-  color: #1b9bff;
-  transition: .5s;
+nav ul li a:hover{
+	background-color: #3c4043;
+	color: #e99d10;
+	text-decoration: none;
+	transition: .5s;
 }
 .checkbtn{
   font-size: 30px;
@@ -99,10 +101,12 @@ a.active,a:hover{
   nav ul li a{
     font-size: 20px;
   }
-  a:hover,a.active{
-    background: none;
-    color: #0082e6;
-  }
+  nav ul li a:hover{
+	background-color: #3c4043;
+	color: #e99d10;
+	text-decoration: none;
+	transition: .5s;
+}
   #check:checked ~ ul{
     left: 0;
   }
@@ -220,6 +224,7 @@ a.active,a:hover{
 	/* grid-template-rows:10% 10% 10%; */
     padding: 20px;
     grid-gap: 90px;
+	margin-top: 40px;
 	margin-right: auto;
 	margin-left: auto;
 	justify-content: center;
@@ -228,7 +233,12 @@ a.active,a:hover{
     background-color: #121212;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
+	transition: 0.3s;
 	width: 120%;
+	
+}
+.card:hover{
+	transform: scale(1.1);
 }
 .container{
     position: relative;
