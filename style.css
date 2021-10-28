@@ -301,3 +301,32 @@ img{
     font-weight: 400;
 }
 
+@media screen and (max-width:1200px){
+	.cards{
+    grid-template-columns: 35% 35% 35%;
+    padding: 30px;
+    grid-gap: 90px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: center;
+	}
+
+}
+@media screen and (max-width:950px){
+	.cards{
+		grid-template-columns: 50% 50%;
+		padding: 100px;
+	}
+	.card{
+		width: 130%;
+		height: 120%;
+	}
+}
+@media screen and (max-width:400px) and (min-width:300px){
+	.cards{
+		grid-template-columns: 80%;
+		padding: 100px;
+	}
+}
+
