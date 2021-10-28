@@ -252,22 +252,21 @@ img{
     border-radius: 20px 20px 0 0;
 }
 
-.card1>.container:after{
-    /* background-image: linear-gradient(
-        135deg,
-        #ffffff,
-        #000000
-    ); */
-	background: linear-gradient(to bottom,transparent, #ffffff);
+.card1> a .container1:after{
+	background-image: linear-gradient(
+	135deg,
+	#ffab1d,
+	#f8501c
+);
 }
-.card2>.container:after{
+.card2> a .container1:after{
     background-image: linear-gradient(
         135deg,
-        #2bdce3,
-        #42ffdb
+        #ffab1d,
+        #f8501c
     );
 }
-.card3>.container:after{
+.card3> a .container1:after{
     background-image: linear-gradient(
         135deg,
         #ffab1d,
