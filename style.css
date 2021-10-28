@@ -9,14 +9,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #151320;
+    background-color: #181818;
     height: 100vh;
     display: grid;
     place-items: center center;
     font-family: 'Poppins',sans-serif;
 }
 nav{
-  background:rgb(21,19,32);
+  background:#121212;
   height: 80px;
   width: 100%;
 }
@@ -225,7 +225,7 @@ a.active,a:hover{
 	justify-content: center;
 }
 .card{
-    background-color: #1c1b29;
+    background-color: #121212;
     border-radius: 20px;
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
 	width: 120%;
